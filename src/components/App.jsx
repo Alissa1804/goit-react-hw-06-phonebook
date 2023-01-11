@@ -4,7 +4,7 @@ import { ContactList } from './ContactList/ContactList';
 import { Container, Title, MTitle } from './App.styled';
 import { useSelector } from 'react-redux';
 import { getContacts } from 'redux/contacts/contacts-selectors';
-
+//
 export const App = () => {
   const contacts = useSelector(getContacts);
 
